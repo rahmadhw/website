@@ -1,8 +1,14 @@
+body {
+	width: 100%;
+	overflow-x: hidden;
+}
+
+
 @media (max-width: 410px)
 {
 
-	body {
-		overflow-x: hidden;
+	header {
+		width: 100%;
 	}
 
 
@@ -14,13 +20,28 @@
 	.bg-info h4 {
 		text-align: center;
 	}
+
+	.bg-info p {
+		text-align: center;
+	}
 }
 
 
-.bg-info img {
-	
-	border-radius: 25px;
-}
+
+	.bg-info p {
+		text-align: center;
+		font-size: 10px;
+		
+	}
+
+	nav {
+		width: auto;
+		overflow: hidden;
+	}
+
+
+
+
 
 
 
@@ -38,6 +59,34 @@ header {
 	background-color: #b4f25c ;
 }
 
+.bg-info p {
+	font-size: 15px;
+}
+
+
+@media (max-width: 319px) {
+	
+	body {
+		overflow-x: hidden;
+	}	
+
+	.masthead {
+		width: 100%;
+	}
+
+	.bg-info img {
+		width: 250px !important;
+	}
+}
+
+
+@media (max-width: 337px)
+{
+	.bg-info img {
+		width: 240px !important;
+	}
+}
+
 @media (min-width: 992px) { 
 
 
@@ -48,3 +97,7 @@ header {
 }
 
 
+.bg-info img {
+	
+	border-radius: 25px;
+}
