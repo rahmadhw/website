@@ -1,7 +1,13 @@
 @media (min-width: 410px)
 {
+
+	body {
+		overflow-x: hidden;
+	}
+
+
 	.bg-info img {
-		width: 350px;
+		width: 320px;
 		margin-left:4px;
 	}
 
@@ -32,7 +38,13 @@ header {
 	background-color: #b4f25c ;
 }
 
-nav {
+@media (min-width: 992px) { 
+
+
+	nav {
 	height: 90px !important;
 }
+
+}
+
 
