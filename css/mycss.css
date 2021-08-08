@@ -1,0 +1,34 @@
+@media (min-width: 410px)
+{
+	.bg-info img {
+		width: 350px;
+		margin-left:4px;
+	}
+
+	.bg-info h4 {
+		text-align: center;
+	}
+}
+
+
+.bg-info img {
+	
+	border-radius: 25px;
+}
+
+
+
+.bg-info h4 {
+		margin-top: 95px;
+		text-align: center;
+	}
+
+.bg-info p {
+	color: white;
+	text-align: center;
+}
+
+header {
+	background-color: #b4f25c ;
+}
+
